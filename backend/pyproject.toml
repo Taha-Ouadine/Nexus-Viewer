@@ -1,0 +1,30 @@
+[project]
+name = "nexus-viewer-backend"
+version = "0.1.0"
+description = "SPHEREx time-domain sky viewer API (NASA Space Apps 2026)"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = [".venv", ".cache"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["B008", "E501", "UP037", "B905"]
+
+[tool.mypy]
+python_version = "3.12"
+ignore_missing_imports = true
+check_untyped_defs = false
+warn_unused_ignores = false
+# lenient: numpy / supabase-py JSON types produce many false positives
+disable_error_code = ["union-attr", "arg-type", "assignment", "dict-item", "type-var", "var-annotated", "index", "call-overload"]
+exclude = ['.venv', '.cache', 'tests']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["live: hits the real IRSA/CDS services (slow; run with -m live)"]
+addopts = "-m 'not live'"
+asyncio_mode = "auto"
+filterwarnings = ["ignore::DeprecationWarning", "ignore::astropy.wcs.FITSFixedWarning"]

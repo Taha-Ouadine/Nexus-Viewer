@@ -1,0 +1,703 @@
+[
+  {
+    "target": "Barnard's Star",
+    "resolved": {
+      "name": "NAME Barnard's star",
+      "ra": 269.4520769586187,
+      "dec": 4.69336496657667,
+      "pmra": -801.551,
+      "pmdec": 10362.394,
+      "parallax": 546.9759,
+      "ref_epoch": 2000.0,
+      "otype": "BY*",
+      "source": "Sesame/Simbad"
+    },
+    "sia_seconds": 3.7,
+    "sia_rows": 363,
+    "per_collection": {
+      "spherex_qr3": 123,
+      "spherex_dr1": 240
+    },
+    "n_after_dedupe": 363,
+    "duplicates_across_releases": 0,
+    "per_detector": {
+      "D1": 60,
+      "D2": 62,
+      "D3": 60,
+      "D4": 60,
+      "D5": 62,
+      "D6": 59
+    },
+    "time_span": [
+      "2025-08-15",
+      "2026-09-22"
+    ],
+    "versions": {
+      "l2b-v27-2026-243": 105,
+      "l2b-v27-2026-235": 44,
+      "l2b-v27-2026-230": 39,
+      "l2b-v27-2026-232": 38,
+      "l2b-v27-2026-231": 33
+    },
+    "epochs_30d": [
+      {
+        "index": 0,
+        "t_start": "2025-08-15",
+        "t_end": "2025-10-01",
+        "n_exposures": 120,
+        "per_detector": {
+          "D1": 24,
+          "D2": 19,
+          "D3": 18,
+          "D4": 23,
+          "D5": 19,
+          "D6": 17
+        }
+      },
+      {
+        "index": 1,
+        "t_start": "2026-03-11",
+        "t_end": "2026-05-05",
+        "n_exposures": 120,
+        "per_detector": {
+          "D1": 18,
+          "D2": 19,
+          "D3": 23,
+          "D4": 18,
+          "D5": 19,
+          "D6": 23
+        }
+      },
+      {
+        "index": 2,
+        "t_start": "2026-08-16",
+        "t_end": "2026-09-22",
+        "n_exposures": 123,
+        "per_detector": {
+          "D1": 18,
+          "D2": 24,
+          "D3": 19,
+          "D4": 19,
+          "D5": 24,
+          "D6": 19
+        }
+      }
+    ],
+    "gaps_over_5d": [
+      25.5,
+      160.8,
+      15.1,
+      24.1,
+      103.5,
+      17.9
+    ],
+    "position_at_mean_epoch": {
+      "jyear": 2026.175,
+      "ra": 269.4462293735672,
+      "dec": 4.768708640700925,
+      "offset_from_J2000_arcsec": 272.0
+    },
+    "motion_px_per_6mo": 0.84,
+    "tap": {
+      "error": "The read operation timed out",
+      "seconds": 120.6
+    },
+    "cutout": {
+      "uri": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W34_2B/l2b-v27-2026-229/2/level2_2025W34_2B_0090_4D2_spx_l2b-v27-2026-229.fits",
+      "seconds": 15.5,
+      "bytes": 3965760,
+      "extnames": [
+        "PRIMARY",
+        "IMAGE",
+        "FLAGS",
+        "VARIANCE",
+        "ZODI",
+        "EPSF",
+        "WCS-WAVE"
+      ],
+      "bunit": "MJy / sr",
+      "pixel_scale_arcsec": [
+        6.129,
+        6.145
+      ],
+      "lambda_um_at_target": [
+        1.101246571730779,
+        0.025351552787211875
+      ],
+      "flag_names_from_header": 22
+    },
+    "parallel_ibe": {
+      "strategy": "cutout",
+      "n": 10,
+      "ok": 10,
+      "seconds": 41.2,
+      "MB": 40.25
+    },
+    "parallel_range": {
+      "strategy": "range",
+      "n": 10,
+      "ok": 10,
+      "seconds": 4.9,
+      "MB": 15.2
+    }
+  },
+  {
+    "target": "Epsilon Indi B",
+    "resolved": {
+      "name": "* eps Ind B",
+      "ra": 331.04414658852124,
+      "dec": -56.78284419511611,
+      "pmra": 3981.977,
+      "pmdec": -2466.832,
+      "parallax": 270.658,
+      "ref_epoch": 2000.0,
+      "otype": "BD*",
+      "source": "Sesame/Simbad"
+    },
+    "sia_seconds": 5.4,
+    "sia_rows": 465,
+    "per_collection": {
+      "spherex_dr1": 345,
+      "spherex_qr3": 120
+    },
+    "n_after_dedupe": 465,
+    "duplicates_across_releases": 0,
+    "per_detector": {
+      "D1": 48,
+      "D2": 93,
+      "D3": 99,
+      "D4": 45,
+      "D5": 84,
+      "D6": 96
+    },
+    "time_span": [
+      "2025-04-24",
+      "2026-10-02"
+    ],
+    "versions": {
+      "l2b-v27-2026-196": 68,
+      "l2b-v27-2026-242": 53,
+      "l2b-v27-2026-239": 49,
+      "l2b-v27-2026-271": 48,
+      "l2b-v27-2026-241": 40
+    },
+    "epochs_30d": [
+      {
+        "index": 0,
+        "t_start": "2025-04-24",
+        "t_end": "2025-06-10",
+        "n_exposures": 124,
+        "per_detector": {
+          "D1": 4,
+          "D2": 32,
+          "D3": 28,
+          "D4": 3,
+          "D5": 30,
+          "D6": 27
+        }
+      },
+      {
+        "index": 1,
+        "t_start": "2025-09-28",
+        "t_end": "2025-11-12",
+        "n_exposures": 147,
+        "per_detector": {
+          "D1": 24,
+          "D2": 30,
+          "D3": 23,
+          "D4": 24,
+          "D5": 24,
+          "D6": 22
+        }
+      },
+      {
+        "index": 2,
+        "t_start": "2026-04-18",
+        "t_end": "2026-05-04",
+        "n_exposures": 74,
+        "per_detector": {
+          "D1": 20,
+          "D2": 7,
+          "D3": 12,
+          "D4": 18,
+          "D5": 6,
+          "D6": 11
+        }
+      },
+      {
+        "index": 3,
+        "t_start": "2026-09-22",
+        "t_end": "2026-10-02",
+        "n_exposures": 120,
+        "per_detector": {
+          "D2": 24,
+          "D3": 36,
+          "D5": 24,
+          "D6": 36
+        }
+      }
+    ],
+    "gaps_over_5d": [
+      12.9,
+      17.5,
+      110.8,
+      8.8,
+      157.0,
+      141.1
+    ],
+    "position_at_mean_epoch": {
+      "jyear": 2025.997,
+      "ra": 331.0966379052548,
+      "dec": -56.80065818576575,
+      "offset_from_J2000_arcsec": 121.7
+    },
+    "motion_px_per_6mo": 0.38,
+    "cutout": {
+      "uri": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W17_4B/l2b-v27-2026-196/2/level2_2025W17_4B_0017_1D2_spx_l2b-v27-2026-196.fits",
+      "seconds": 13.5,
+      "bytes": 3965760,
+      "extnames": [
+        "PRIMARY",
+        "IMAGE",
+        "FLAGS",
+        "VARIANCE",
+        "ZODI",
+        "EPSF",
+        "WCS-WAVE"
+      ],
+      "bunit": "MJy / sr",
+      "pixel_scale_arcsec": [
+        6.133,
+        6.146
+      ],
+      "lambda_um_at_target": [
+        1.5618211606261054,
+        0.03807737779465058
+      ],
+      "flag_names_from_header": 22
+    },
+    "parallel_ibe": {
+      "strategy": "cutout",
+      "n": 10,
+      "ok": 10,
+      "seconds": 39.3,
+      "MB": 40.16
+    },
+    "parallel_range": {
+      "strategy": "range",
+      "n": 10,
+      "ok": 10,
+      "seconds": 4.4,
+      "MB": 15.2
+    }
+  },
+  {
+    "target": "WISE 0855-0714",
+    "resolved": {
+      "name": "WISEA J085510.74-071442.5",
+      "ra": 133.81890825,
+      "dec": -7.247048,
+      "pmra": -8123.7,
+      "pmdec": 673.2,
+      "parallax": 439.0,
+      "ref_epoch": 2000.0,
+      "otype": "BD*",
+      "source": "Sesame/Simbad"
+    },
+    "sia_seconds": 3.3,
+    "sia_rows": 261,
+    "per_collection": {
+      "spherex_dr1": 261
+    },
+    "n_after_dedupe": 261,
+    "duplicates_across_releases": 0,
+    "per_detector": {
+      "D1": 38,
+      "D2": 48,
+      "D3": 45,
+      "D4": 37,
+      "D5": 48,
+      "D6": 45
+    },
+    "time_span": [
+      "2025-05-05",
+      "2026-05-14"
+    ],
+    "versions": {
+      "l2b-v27-2026-247": 51,
+      "l2b-v27-2026-244": 38,
+      "l2b-v27-2026-246": 36,
+      "l2b-v27-2026-197": 30,
+      "l2b-v27-2026-242": 20
+    },
+    "epochs_30d": [
+      {
+        "index": 0,
+        "t_start": "2025-05-05",
+        "t_end": "2025-05-06",
+        "n_exposures": 30,
+        "per_detector": {
+          "D1": 4,
+          "D2": 8,
+          "D3": 3,
+          "D4": 4,
+          "D5": 8,
+          "D6": 3
+        }
+      },
+      {
+        "index": 1,
+        "t_start": "2025-10-31",
+        "t_end": "2025-12-13",
+        "n_exposures": 131,
+        "per_detector": {
+          "D1": 20,
+          "D2": 25,
+          "D3": 21,
+          "D4": 19,
+          "D5": 25,
+          "D6": 21
+        }
+      },
+      {
+        "index": 2,
+        "t_start": "2026-04-21",
+        "t_end": "2026-05-14",
+        "n_exposures": 100,
+        "per_detector": {
+          "D1": 14,
+          "D2": 15,
+          "D3": 21,
+          "D4": 14,
+          "D5": 15,
+          "D6": 21
+        }
+      }
+    ],
+    "gaps_over_5d": [
+      178.2,
+      26.9,
+      128.8
+    ],
+    "position_at_mean_epoch": {
+      "jyear": 2025.983,
+      "ra": 133.75980355263485,
+      "dec": -7.242189201224646,
+      "offset_from_J2000_arcsec": 211.8
+    },
+    "motion_px_per_6mo": 0.66,
+    "cutout": {
+      "uri": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W19_1B/l2b-v27-2026-197/6/level2_2025W19_1B_0116_1D6_spx_l2b-v27-2026-197.fits",
+      "seconds": 15.8,
+      "bytes": 3962880,
+      "extnames": [
+        "PRIMARY",
+        "IMAGE",
+        "FLAGS",
+        "VARIANCE",
+        "ZODI",
+        "EPSF",
+        "WCS-WAVE"
+      ],
+      "bunit": "MJy / sr",
+      "pixel_scale_arcsec": [
+        6.15,
+        6.15
+      ],
+      "lambda_um_at_target": [
+        4.967351454552606,
+        0.03718704808924792
+      ],
+      "flag_names_from_header": 22
+    },
+    "parallel_ibe": {
+      "strategy": "cutout",
+      "n": 10,
+      "ok": 10,
+      "seconds": 33.3,
+      "MB": 40.07
+    },
+    "parallel_range": {
+      "strategy": "range",
+      "n": 10,
+      "ok": 10,
+      "seconds": 4.1,
+      "MB": 15.2
+    }
+  },
+  {
+    "target": "RW Aurigae",
+    "resolved": {
+      "name": "V* RW Aur",
+      "ra": 76.95652603458,
+      "dec": 30.40143817389,
+      "pmra": 7.23,
+      "pmdec": -20.33,
+      "parallax": 15.42,
+      "ref_epoch": 2000.0,
+      "otype": "TT*",
+      "source": "Sesame/Simbad"
+    },
+    "sia_seconds": 3.5,
+    "sia_rows": 335,
+    "per_collection": {
+      "spherex_dr1": 226,
+      "spherex_qr3": 109
+    },
+    "n_after_dedupe": 335,
+    "duplicates_across_releases": 0,
+    "per_detector": {
+      "D1": 56,
+      "D2": 55,
+      "D3": 56,
+      "D4": 56,
+      "D5": 56,
+      "D6": 56
+    },
+    "time_span": [
+      "2025-09-01",
+      "2026-09-16"
+    ],
+    "versions": {
+      "l2b-v27-2026-229": 57,
+      "l2b-v27-2026-232": 50,
+      "l2b-v27-2026-261": 41,
+      "l2b-v27-2026-235": 36,
+      "l2b-v27-2026-237": 34
+    },
+    "epochs_30d": [
+      {
+        "index": 0,
+        "t_start": "2025-09-01",
+        "t_end": "2025-09-20",
+        "n_exposures": 112,
+        "per_detector": {
+          "D1": 19,
+          "D2": 18,
+          "D3": 19,
+          "D4": 19,
+          "D5": 18,
+          "D6": 19
+        }
+      },
+      {
+        "index": 1,
+        "t_start": "2026-02-20",
+        "t_end": "2026-03-12",
+        "n_exposures": 114,
+        "per_detector": {
+          "D1": 19,
+          "D2": 19,
+          "D3": 19,
+          "D4": 19,
+          "D5": 19,
+          "D6": 19
+        }
+      },
+      {
+        "index": 2,
+        "t_start": "2026-09-02",
+        "t_end": "2026-09-16",
+        "n_exposures": 109,
+        "per_detector": {
+          "D1": 18,
+          "D2": 18,
+          "D3": 18,
+          "D4": 18,
+          "D5": 19,
+          "D6": 18
+        }
+      }
+    ],
+    "gaps_over_5d": [
+      5.4,
+      153.5,
+      6.2,
+      174.1,
+      6.0
+    ],
+    "position_at_mean_epoch": {
+      "jyear": 2026.18,
+      "ra": 76.95658699412539,
+      "dec": 30.40129033101766,
+      "offset_from_J2000_arcsec": 0.6
+    },
+    "motion_px_per_6mo": 0.0,
+    "cutout": {
+      "uri": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W37_1A/l2b-v27-2026-235/2/level2_2025W37_1A_0068_1D2_spx_l2b-v27-2026-235.fits",
+      "seconds": 16.6,
+      "bytes": 3965760,
+      "extnames": [
+        "PRIMARY",
+        "IMAGE",
+        "FLAGS",
+        "VARIANCE",
+        "ZODI",
+        "EPSF",
+        "WCS-WAVE"
+      ],
+      "bunit": "MJy / sr",
+      "pixel_scale_arcsec": [
+        6.131,
+        6.148
+      ],
+      "lambda_um_at_target": [
+        1.4411320418751108,
+        0.0352240985660489
+      ],
+      "flag_names_from_header": 22
+    },
+    "parallel_ibe": {
+      "strategy": "cutout",
+      "n": 10,
+      "ok": 10,
+      "seconds": 46.3,
+      "MB": 40.08
+    },
+    "parallel_range": {
+      "strategy": "range",
+      "n": 10,
+      "ok": 10,
+      "seconds": 4.8,
+      "MB": 15.2
+    }
+  },
+  {
+    "target": "R Draconis",
+    "resolved": {
+      "name": "V* R Dra",
+      "ra": 248.16761083295,
+      "dec": 66.75497941722,
+      "pmra": -20.643,
+      "pmdec": 6.149,
+      "parallax": 1.2509,
+      "ref_epoch": 2000.0,
+      "otype": "Mi*",
+      "source": "Sesame/Simbad"
+    },
+    "sia_seconds": 24.9,
+    "sia_rows": 2493,
+    "per_collection": {
+      "spherex_qr3_deep": 729,
+      "spherex_dr1_deep": 1225,
+      "spherex_dr1": 413,
+      "spherex_qr3": 126
+    },
+    "n_after_dedupe": 2493,
+    "duplicates_across_releases": 0,
+    "per_detector": {
+      "D1": 584,
+      "D2": 89,
+      "D3": 574,
+      "D4": 584,
+      "D5": 89,
+      "D6": 573
+    },
+    "time_span": [
+      "2025-04-24",
+      "2026-09-27"
+    ],
+    "versions": {
+      "l2b-v27-2026-243": 245,
+      "l2b-v27-2026-235": 186,
+      "l2b-v27-2026-238": 121,
+      "l2b-v27-2026-240": 118,
+      "l2b-v27-2026-236": 99
+    },
+    "epochs_30d": [
+      {
+        "index": 0,
+        "t_start": "2025-04-24",
+        "t_end": "2025-07-22",
+        "n_exposures": 240,
+        "per_detector": {
+          "D1": 22,
+          "D2": 33,
+          "D3": 67,
+          "D4": 21,
+          "D5": 32,
+          "D6": 65
+        }
+      },
+      {
+        "index": 1,
+        "t_start": "2025-08-29",
+        "t_end": "2026-09-27",
+        "n_exposures": 2253,
+        "per_detector": {
+          "D1": 562,
+          "D2": 56,
+          "D3": 507,
+          "D4": 563,
+          "D5": 57,
+          "D6": 508
+        }
+      }
+    ],
+    "gaps_over_5d": [
+      8.6,
+      12.4,
+      7.2,
+      7.3,
+      37.8,
+      5.0,
+      8.1,
+      5.5,
+      7.9,
+      7.7,
+      11.5,
+      9.8,
+      26.1,
+      6.9,
+      5.4,
+      15.5,
+      8.3,
+      13.0
+    ],
+    "position_at_mean_epoch": {
+      "jyear": 2026.201,
+      "ra": 248.16723014597758,
+      "dec": 66.75502417074154,
+      "offset_from_J2000_arcsec": 0.6
+    },
+    "motion_px_per_6mo": 0.0,
+    "cutout": {
+      "uri": "https://irsa.ipac.caltech.edu/ibe/data/spherex/dr1/level2/2025W23_2B/l2b-v27-2026-201/2/level2_2025W23_2B_0696_1D2_spx_l2b-v27-2026-201.fits",
+      "seconds": 13.2,
+      "bytes": 3965760,
+      "extnames": [
+        "PRIMARY",
+        "IMAGE",
+        "FLAGS",
+        "VARIANCE",
+        "ZODI",
+        "EPSF",
+        "WCS-WAVE"
+      ],
+      "bunit": "MJy / sr",
+      "pixel_scale_arcsec": [
+        6.139,
+        6.146
+      ],
+      "lambda_um_at_target": [
+        1.4046930807262714,
+        0.03371663712052289
+      ],
+      "flag_names_from_header": 22
+    },
+    "parallel_ibe": {
+      "strategy": "cutout",
+      "n": 10,
+      "ok": 10,
+      "seconds": 41.6,
+      "MB": 40.24
+    },
+    "parallel_range": {
+      "strategy": "range",
+      "n": 10,
+      "ok": 10,
+      "seconds": 5.6,
+      "MB": 15.2
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "dr1",
+    "label": "Data Release 1",
+    "sia_collections": ["spherex_dr1", "spherex_dr1_deep"],
+    "tap_release_filter": "spherex_dr1",
+    "s3_prefix": "dr1/",
+    "sapm_path_template": "dr1/solid_angle_pixel_map/cal-sapm-v3-2026-191/{k}/solid_angle_pixel_map_D{k}_spx_cal-sapm-v3-2026-191.fits",
+    "doi": "10.26131/IRSA678",
+    "priority": 20,
+    "is_active": true,
+    "released_at": "2026-11-01",
+    "last_synced_at": null,
+    "notes": "Covers 2025-05 .. 2026-05 (first two full-sky passes)."
+  },
+  {
+    "id": "qr3",
+    "label": "Quick Release 3",
+    "sia_collections": ["spherex_qr3", "spherex_qr3_deep"],
+    "tap_release_filter": "spherex_qr3",
+    "s3_prefix": "qr3/",
+    "sapm_path_template": "qr3/solid_angle_pixel_map/cal-sapm-v3-2026-191/{k}/solid_angle_pixel_map_D{k}_spx_cal-sapm-v3-2026-191.fits",
+    "doi": "10.26131/IRSA662",
+    "priority": 10,
+    "is_active": true,
+    "released_at": "2026-09-01",
+    "last_synced_at": null,
+    "notes": "Newer exposures (2026-08 onward) that are not in DR1. Updated weekly."
+  }
+]

@@ -1,0 +1,32 @@
+# Local stack: backend in Docker + frontend in Docker.
+#   docker compose up --build
+# Then open http://localhost:3000. (Supabase is optional: set the variables in backend/.env.)
+services:
+  backend:
+    build: ./backend
+    ports: ["8000:8000"]
+    env_file:
+      - path: ./backend/.env
+        required: false
+    environment:
+      CORS_ORIGINS: http://localhost:3000
+    volumes:
+      - backend-cache:/app/.cache
+    restart: unless-stopped
+
+  frontend:
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "npm ci && npm run build && npm run start -- -p 3000"
+    environment:
+      BACKEND_URL: http://backend:8000
+      NEXT_PUBLIC_SITE_URL: http://localhost:3000
+    ports: ["3000:3000"]
+    volumes:
+      - ./frontend:/app
+      - frontend-node-modules:/app/node_modules
+    depends_on: [backend]
+
+volumes:
+  backend-cache:
+  frontend-node-modules:
